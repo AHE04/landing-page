@@ -40,3 +40,64 @@ color: #E5E7EB;
 padding-top: 5px;
 
 }
+
+.first{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding-top: 100px;
+    flex-wrap:nowrap;
+    padding-bottom: 100px;
+
+}
+
+.texts{
+    padding-left: 120px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    justify-content: left;
+    align-items: center;
+    gap:10px;
+    
+    
+}
+
+.signup{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 20px;
+    display: flex;
+    margin-right: auto;
+    border-color: #3882F6;
+}
+.firsttitle{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.text{
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+.picture{
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+.space{
+
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex: 1 ;
+    justify-content: right;
+    align-items: center;
+}
