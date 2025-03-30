@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.all{
+    font-family: 'Roboto' , sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    padding: 10px;
+    margin: 0;
+
+}
+.headerlinkthree{
+    margin-right: 100px;
+}
+.left-links{
+    font-weight: 900;
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+.right-links{
+display: flex;
+gap: 20px;
+font-size: 18px;
+color: #E5E7EB;
+padding-top: 5px;
+
+}
