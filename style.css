@@ -4,7 +4,7 @@ body{
 }
 
 
-.all{
+.theheader{
     font-family: 'Roboto' , sans-serif;
     display: flex;
     flex-direction: column;
@@ -100,4 +100,59 @@ padding-top: 5px;
     flex: 1 ;
     justify-content: right;
     align-items: center;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+}
+
+.titleoftwo{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    background-color:#F9FAF8 ;
+    padding-top: 30px;
+}
+
+.secondboxes {
+    padding-top: 50px;
+    display: flex;
+    gap: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxone , .boxtwo , .boxthree , .boxfour {
+    background-color:#F9FAF8 ;
+
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.defaultbox {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    align-items: center;
+}
+
+.caption {
+    background-color: #F9FAF8;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 150px;
+    text-align: center;
 }
